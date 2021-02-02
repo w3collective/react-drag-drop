@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.dnd {
+  list-style: none;
+  width: 500px;
+  margin: auto;
+}
+.dnd li {
+  cursor: move;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 1px;
+  transition: all 0.2s;
+}
+.dnd li:hover {
+  background-color: #003366 !important;
+}
